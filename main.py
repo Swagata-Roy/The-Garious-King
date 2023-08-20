@@ -1,7 +1,10 @@
 import streamlit as st
 import google.generativeai as palm
 
-st.write(f"""<!DOCTYPE html>
+def main():
+    st.title("Chat Garden")
+
+st.write(f"""
 * {
     box-sizing: border-box;
 }
@@ -141,8 +144,6 @@ body {
     background-color: #45a049;
 }
 
-
-<body>
 <div class="container">
   <div class="sidebar">
     <div class="header">
@@ -184,6 +185,8 @@ body {
     </div>
   </div>
 </div>
-</body>
-
 """, unsafe_allow_html=True)
+
+
+if __name__ == "__main__":
+    main()
