@@ -184,9 +184,6 @@ body {
     </div>
   </div>
 </div>
-
-<script src="/js/main.js"></script>
 </body>
 
-</html>
 """, unsafe_allow_html=True)
